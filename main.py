@@ -18,6 +18,12 @@ while z == 'y':
         choice = input("Enter your choice: ").lower()
         if choice == 'exit':
             break
+        elif 's' in choice:
+            pass
+        elif 'w' in choice:
+            pass
+        elif 'g' in choice:
+            pass
         else:
             print("Retry")
             continue
@@ -28,13 +34,13 @@ while z == 'y':
 
         if choice == comp_choice:
             continue
-        elif choice == 1:
-            if comp_choice == 2:
+        elif choice == 's':
+            if comp_choice == 'w':
                 c_user += 1
             else:
                 c_comp += 1
-        elif choice == 2:
-            if comp_choice == 1:
+        elif choice == 'w':
+            if comp_choice == 's':
                 c_comp += 1
             else:
                 c_user += 1
