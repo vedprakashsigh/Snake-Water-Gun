@@ -45,7 +45,7 @@ while z == 'y':
             else:
                 c_user += 1
         else:
-            if comp_choice == 1:
+            if comp_choice == 's':
                 c_user += 1
             else:
                 c_comp += 1
