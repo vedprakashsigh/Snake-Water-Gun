@@ -18,11 +18,7 @@ while z == 'y':
         choice = input("Enter your choice: ").lower()
         if choice == 'exit':
             break
-        elif 's' in choice:
-            pass
-        elif 'w' in choice:
-            pass
-        elif 'g' in choice:
+        elif choice in l:
             pass
         else:
             print("Retry")
